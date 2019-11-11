@@ -89,4 +89,4 @@ let plistEntries = try licences.map { try $0.makeRepresentation() }
 let data = try PropertyListSerialization.data(fromPropertyList: plistEntries, format: .xml, options: .zero)
 try data.write(to: URL(fileURLWithPath: outputPath.expandingTildeInPath))
 
-print("Licenses has been saved to \(outputPath)")
+print("Licenses have been saved to \(outputPath)")
