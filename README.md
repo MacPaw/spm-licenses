@@ -6,4 +6,4 @@ Command line tool to collect LICENSE files from SPM dependencies
 ```bash
 ./spm-licenses -w /path/to/workspace -o /output/file
 ```
-The output is a plist file ready to be included into settings bundle for example as "Acknowledgements" section.
+The output is a plist file ready to be included into settings bundle as "Acknowledgements" section.
